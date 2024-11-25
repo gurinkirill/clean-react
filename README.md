@@ -1,2 +1,2 @@
 # clean-react
-Clean React project configuration
+React + TS + Vite
