@@ -2,19 +2,8 @@
   "globals": {
     "process": true
   },
-  "extends": [
-    "eslint:recommended",
-    "plugin:@typescript-eslint/recommended",
-    "plugin:react/recommended",
-    "prettier"
-  ],
-  "plugins": [
-    "@typescript-eslint",
-    "prettier",
-    "react",
-    "react-hooks",
-    "prefer-arrow"
-  ],
+  "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended", "plugin:react/recommended", "prettier"],
+  "plugins": ["@typescript-eslint", "prettier", "react", "react-hooks", "prefer-arrow"],
   "env": {
     "browser": true,
     "jasmine": true,

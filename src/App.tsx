@@ -1,8 +1,8 @@
-import React from "react";
-import { Main } from "./pages/Main";
+import React from 'react';
+import { AppRoutes } from './routes/AppRoutes';
 
 export const App: React.FC = () => (
-  <div className={"center-full"}>
-    <Main />
+  <div className={'center-full'}>
+    <AppRoutes />
   </div>
 );
